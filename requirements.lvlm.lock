@@ -1,0 +1,14 @@
+accelerate==1.16.0
+matplotlib==3.10.9
+numpy==2.4.3
+pandas==3.0.2
+pillow==12.1.1
+PyYAML==6.0.3
+qwen-vl-utils==0.0.14
+scipy==1.17.1
+tabulate==0.10.0
+text2num==3.1.0
+torch==2.11.0+cu126
+torchmetrics==1.9.0
+torchvision==0.26.0+cu126
+transformers==4.57.6

@@ -1,0 +1,31 @@
+{
+ "_note": "Numbers REPORTED in Qharabagh et al. (arXiv 2412.00686) Tables 1-4. Reference only; never used in any computation or tuning. Specialist rows are copied from the paper (not re-run).",
+ "fsc147": {
+  "TFOC": {"mae": 24.79, "rmse": 137.15}, "DAVEprm": {"mae": 14.90, "rmse": 103.42},
+  "CountGD": {"mae": 14.76, "rmse": 120.42}, "GroundingREC": {"mae": 10.12, "rmse": 107.19},
+  "mask_count": {"mae": 44.14, "rmse": 154.39}, "gpt4o_counts_masks": {"mae": 38.45, "rmse": 156.11},
+  "gpt4o": {"mae": 25.57, "rmse": 137.26}, "gpt4o_lvlmcount": {"mae": 17.86, "rmse": 91.71},
+  "gemma3_27b": {"mae": 30.59, "rmse": 132.61}, "gemma3_27b_lvlmcount": {"mae": 20.25, "rmse": 110.45},
+  "qwen2vl_72b_awq": {"mae": 34.18, "rmse": 149.49}, "qwen2vl_72b_awq_lvlmcount": {"mae": 22.29, "rmse": 119.46}},
+ "pascal": {
+  "TFOC": {"mae": 12.03, "rmse": 18.18}, "DAVEprm": {"mae": 12.39, "rmse": 22.81},
+  "CountGD": {"mae": 2.81, "rmse": 7.01}, "GroundingREC": {"mae": 4.05, "rmse": 7.80},
+  "mask_count": {"mae": 4.03, "rmse": 7.47}, "gpt4o_counts_masks": {"mae": 6.60, "rmse": 15.09},
+  "gpt4o": {"mae": 4.64, "rmse": 8.56}, "gpt4o_lvlmcount": {"mae": 3.42, "rmse": 7.17},
+  "gemma3_27b": {"mae": 3.40, "rmse": 7.54}, "gemma3_27b_lvlmcount": {"mae": 2.97, "rmse": 6.16},
+  "qwen2vl_72b_awq": {"mae": 4.80, "rmse": 8.71}, "qwen2vl_72b_awq_lvlmcount": {"mae": 4.12, "rmse": 7.76}},
+ "emoji": {
+  "TFOC": {"mae": 64.64, "rmse": 87.45}, "DAVEprm": {"mae": 198.99, "rmse": 208.08},
+  "CountGD": {"mae": 137.93, "rmse": 156.80}, "GroundingREC": {"mae": 143.22, "rmse": 158.74},
+  "mask_count": {"mae": 82.47, "rmse": 107.98}, "gpt4o_counts_masks": {"mae": 107.72, "rmse": 162.12},
+  "gpt4o": {"mae": 23.57, "rmse": 36.97}, "gpt4o_lvlmcount": {"mae": 16.57, "rmse": 33.11},
+  "gemma3_27b": {"mae": 21.39, "rmse": 24.04}, "gemma3_27b_lvlmcount": {"mae": 16.16, "rmse": 21.27},
+  "qwen2vl_72b_awq": {"mae": 78.05, "rmse": 159.22}, "qwen2vl_72b_awq_lvlmcount": {"mae": 24.43, "rmse": 43.38}},
+ "penguin": {
+  "gpt4o": {"mae": 35.18, "rmse": 45.76}, "gpt4o_lvlmcount": {"mae": 26.76, "rmse": 38.60},
+  "gpt4o_lvlmcount_sam_only": {"mae": 29.02, "rmse": 44.89},
+  "gemma3_27b": {"mae": 49.44, "rmse": 60.20}, "gemma3_27b_lvlmcount": {"mae": 34.13, "rmse": 44.11},
+  "gemma3_27b_lvlmcount_sam_only": {"mae": 41.09, "rmse": 53.01},
+  "qwen2vl_72b_awq": {"mae": 44.02, "rmse": 65.59}, "qwen2vl_72b_awq_lvlmcount": {"mae": 28.21, "rmse": 40.40},
+  "qwen2vl_72b_awq_lvlmcount_sam_only": {"mae": 33.33, "rmse": 47.55}}
+}

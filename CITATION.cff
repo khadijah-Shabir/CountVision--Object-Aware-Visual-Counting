@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this software and the original LVLM-Count paper."
+title: "CountVision"
+type: software
+authors:
+  - name: "CountVision project contributors"
+references:
+  - type: article
+    title: "LVLM-Count: Enhancing the Counting Ability of Large Vision-Language Models"
+    authors:
+      - given-names: Muhammad Fetrat
+        family-names: Qharabagh
+      - given-names: Mohammadreza
+        family-names: Ghofrani
+      - given-names: Kimon
+        family-names: Fountoulakis
+    year: 2024
+    url: "https://arxiv.org/abs/2412.00686"

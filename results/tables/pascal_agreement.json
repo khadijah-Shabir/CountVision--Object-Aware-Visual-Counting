@@ -1,0 +1,8 @@
+{
+  "authors_n": 102,
+  "rebuilt_n": 102,
+  "overlap_pairs": 39,
+  "authors_gt_equals_raw_all": 43,
+  "authors_gt_equals_raw_nondifficult": 28,
+  "note": "difficult-flagged objects: counted (n_all) in the rebuild; see DECISIONS.md"
+}

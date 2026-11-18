@@ -1,0 +1,32 @@
+# Fixed parameters for all main experiments (nothing is hard-coded elsewhere).
+grounding:
+  model_dir: weights/grounding-dino-base      # [UNSPECIFIED] variant; authors' code uses Swin-B (see DECISIONS.md)
+  area_box_threshold: 0.1
+  area_text_threshold: 0.1
+  seg_box_threshold: 0.1
+  seg_text_threshold: 0.1
+sam:
+  checkpoint: weights/sam_vit_h_4b8939.pth
+  model_type: vit_h
+postprocess:
+  mask_nms_iou: 0.4
+  erosion_px: 2
+  refinement_px: 3
+  refinement_op: close
+  max_mask_area_frac: 0.5
+  max_mask_median_factor: 25     # authors' rule; chosen on FSC-147 VAL only (DECISIONS.md #9, #25)
+  group_box_filter: true         # drop 'group' boxes before SAM (authors' filter_bboxes); DECISIONS.md #25
+  group_cover_th: 0.67
+division:
+  axis: vertical
+  samples_per_mask: 5
+  cut_midpoint: true
+  heuristic: manhattan
+  max_graph_side: 256        # A* grid is downscaled to this, falls back to finer grids if no path
+  blank_color: 255
+  min_region_area: 100
+counting:
+  zero_sentence: "Say 0 if you do not see any."
+  bracket_sentence: "Report your final answer with only one number inside [[Double Brackets]]"
+  max_retries: 10
+seed: 1234

@@ -1,0 +1,11 @@
+matplotlib>=3.8,<4
+numpy>=1.26,<3
+opencv-python-headless>=4.8,<5
+pandas>=2.1,<4
+Pillow>=10,<13
+pytest>=8,<10
+reportlab>=4,<6
+scikit-learn>=1.4,<2
+scipy>=1.11,<2
+tabulate>=0.9,<1
+text2num>=3,<4
